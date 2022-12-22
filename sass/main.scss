@@ -190,3 +190,13 @@ img {
     font-size: 1.3rem;
     cursor: pointer;
 }
+
+/*Show menu*/
+.show-menu{
+    top: var(--header-height);
+}
+
+/*Active menu*/
+.active-link{
+    color: var(--first-color);
+}

@@ -186,4 +186,28 @@ img {
 
 .nav__logo:hover {
   color: var(--first-color);
+}
+
+.nav__link {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.nav__link:hover {
+  color: var(--first-color);
+}
+
+.nav__toggle {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+/*Show menu*/
+.show-menu {
+  top: var(--header-height);
+}
+
+/*Active menu*/
+.active-link {
+  color: var(--first-color);
 }/*# sourceMappingURL=main.css.map */
