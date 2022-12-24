@@ -92,20 +92,25 @@ body{
 h1, h2, h3, p, ul {
     margin: 0;
 }
+
 ul {
     padding: 0;
     list-style: none;
 }
+
 a {
     text-decoration: none;
 }
+
 img {
     max-width: 100%;
     height: auto;
 }
+
 .section {
     padding: 4rem 0 2rem;
 }
+
 .section-title, .section-subtitle {
     text-align: center;
 }
@@ -143,6 +148,7 @@ img {
 }
 
 /*Nav*/
+
 .nav{
     max-width: 1024px;
     height: var(--header-height);
@@ -170,9 +176,7 @@ img {
     margin-bottom: var(--mb-2);
 }
 
-.nav__link, 
-.nav__logo, 
-.nav__toggle{
+.nav__link, .nav__logo, .nav__toggle{
     color: var(--text-color);
     font-weight: var(--font-medium);
 }
