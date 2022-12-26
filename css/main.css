@@ -208,4 +208,33 @@ img {
 /*Active menu*/
 .active-link {
   color: var(--first-color);
+}
+
+/*Change background header*/
+.scroll-header {
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*Scroll top*/
+.scrolltop {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.3rem;
+  background: rgba(21, 138, 255, 0.4235294118);
+  border-radius: 0.4rem;
+  z-index: var(--z-tooltip);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  visibility: hidden;
 }/*# sourceMappingURL=main.css.map */
