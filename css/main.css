@@ -237,4 +237,49 @@ img {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   visibility: hidden;
+}
+
+.scrolltop:hover {
+  background-color: rgba(21, 138, 255, 0.6901960784);
+}
+
+.scrolltop__icon {
+  font-size: 1.8rem;
+  color: var(--body-color);
+}
+
+/*Show scrolltop*/
+.show-scroll {
+  visibility: visible;
+  bottom: 1.5rem;
+}
+
+/*Home*/
+.home__container {
+  height: calc(100vh - var(--header-height));
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.home__title {
+  font-size: var(--biggest-font-size);
+  color: var(--first-color);
+  margin-bottom: var(--mb-1);
+}
+
+.home__subtitle {
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+  margin-bottom: var(--mb-4);
+}
+
+/*Buttons*/
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }/*# sourceMappingURL=main.css.map */
