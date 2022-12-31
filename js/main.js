@@ -46,3 +46,9 @@ function scrollActive(){
     })
 }
 window.addEventListener('scroll', scrollActive)
+
+//Change Background Header
+function scrollHeader() {
+    const nav = document.getElementById('header')
+//коли скрол більше за 200 vp висоту, додаємо класс scroll-header
+}
