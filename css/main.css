@@ -541,4 +541,28 @@ img {
        -moz-column-gap: 4rem;
             column-gap: 4rem;
   }
+  .menu__content {
+    padding: 1.5rem;
+  }
+  .menu__img {
+    width: 130px;
+  }
+  .app__store {
+    margin: 0 var(--mb-1) 0 0;
+  }
+}
+@media screen and (min-width: 960px) {
+  .bd-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home__img {
+    width: 500px;
+  }
+  .about__container,
+.app__container {
+    -webkit-column-gap: 7rem;
+       -moz-column-gap: 7rem;
+            column-gap: 7rem;
+  }
 }/*# sourceMappingURL=main.css.map */
