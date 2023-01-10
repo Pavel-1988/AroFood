@@ -565,4 +565,9 @@ img {
        -moz-column-gap: 7rem;
             column-gap: 7rem;
   }
+}
+@media screen and (min-height: 721px) {
+  .home__container {
+    height: 640px;
+  }
 }/*# sourceMappingURL=main.css.map */
